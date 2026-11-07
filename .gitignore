@@ -1,0 +1,64 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+node_modules/
+dist/
+
+# Python
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Ambientes virtuais
+venv/
+env/
+
+# Variáveis de ambiente (exemplos podem ser versionados)
+!.env.*.example
+
+# Django e bancos locais
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+*.log
+
+# Node / React
+build/
+coverage/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+tmp/
+temp/
+*.bak
+*.tmp
+
+# Credenciais locais e chaves privadas
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
